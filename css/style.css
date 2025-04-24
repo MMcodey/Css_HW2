@@ -1,0 +1,172 @@
+body{
+    font-family:  Arial, 'Arial Narrow', Verdana, sans-serif;
+    font-size: 150%;
+    background-color: #e0d5af;
+    text-align: center;
+  }
+
+  header{
+    
+    background-color:#504136;
+    padding-top: 2%;
+    margin-top: 1%;
+
+  }
+
+   /*li{
+
+    display:inline;
+    width: 90px;
+    padding: 5%;
+    
+
+  }*/
+
+  nav{
+
+    display: inline-block;
+    width: 80%;
+    background-color: #849483;
+    padding-top: 10px;
+
+
+  }
+
+  nav ul{
+
+    display: inline-flex;
+    justify-content: space-around;
+    list-style-type: none;
+    width: 80%;
+    
+    
+  }
+
+  nav li{
+
+    padding-right: 2%;
+
+  }
+
+  nav img{
+
+    display: inline-block;
+    width: 10%;
+    
+  }
+
+
+  main{
+
+    background-color:#86946f;
+    font-size:x-large;
+    padding: 3px;
+    
+
+  }
+
+  main a {
+
+    color: #49321f;
+
+  }
+
+  main a:hover {
+
+    color: #DCA1A1;
+
+  }
+
+  .imgGrid{
+
+    display: grid;
+    grid-template-columns: 40% 40%;
+    justify-content: space-evenly;
+    row-gap: 1%;
+    align-items: center;
+    padding-bottom: 15%;
+    padding-top: 5%;
+
+  }
+
+  .imgGrid img{
+
+    width: 100%;
+
+  }
+
+  .flexGrid{
+
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+  }
+
+  .skiplink{
+
+    color: #49321f;
+    margin-top: 2%;
+
+  }
+
+  .skiplink:hover{
+
+    background-color: #49321f;
+    color: #DCA1A1;
+    padding: 5px;
+    border-radius: 30%;
+
+
+  }
+
+ 
+
+  li a{
+
+    color: #49321f;
+
+  }
+
+  li a:hover{
+
+    color: #DCA1A1;
+
+  }
+
+  h1{
+
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:#DCA1A1;
+    text-shadow: 0px 0px 7px black;
+    border:3px solid #487d45;
+    outline: 7px dotted #DCA1A1;
+
+  }
+
+  p{
+
+    line-height:30px;
+    margin-left: 10%;
+    margin-right: 10%;
+
+  }
+
+  footer{
+
+    background-color:#5041369a;
+    font-size: 46%;
+
+
+  }
+
+  footer a{
+
+    color:  #DCA1A1;
+  }
+
+  footer a:hover{
+
+    color:  #e0d5af;
+  }
