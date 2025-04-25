@@ -55,6 +55,12 @@ body{
     
   }
 
+  .active{
+
+    background-color: #49321f;
+    color: #DCA1A1;
+    padding: 7px;
+  }
 
   main{
 
